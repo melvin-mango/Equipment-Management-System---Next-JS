@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>{{ role }} Dashboard</h1>
+
+  <h2>Borrow Requests</h2>
+  <ul>
+    {% for request in requests %}
+      <li>{{ request.equipment.make }} {{ request.equipment.model }} - {{ request.student.username }}</li>
+    {% endfor %}
+  </ul>
+
+  {% if role == "Technician" %}
+  <h2>Add New Equipment</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Add Equipment</button>
+  </form>
+  {% endif %}
+{% endblock %}
