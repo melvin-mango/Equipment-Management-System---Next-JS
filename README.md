@@ -18,8 +18,9 @@ or
 <li>cd .\equipment_borrowing\</li>
 or 
 <li>cd .\equipment_management\</li>
+<br>
 
-
+<b> After project selected run the following:</b> 
 
 
 
