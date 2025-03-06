@@ -13,10 +13,6 @@ Python modules required
 
 <b>After installation run the following code:</b> 
 
-<li>cd .\booking_sys\</li>
-or 
-<li>cd .\equipment_borrowing\</li>
-or 
 <li>cd .\equipment_management\</li>
 <br>
 
