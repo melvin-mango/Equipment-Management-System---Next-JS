@@ -1,101 +1,48 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className=" flex bg-white text-black flex-col  items-center  justify-between h-screen font-[family-name:var(--font-geist-sans)]">
+      {/*   Navbar content */}
+      <nav className="flex w-full justify-between items-center border-b-4 border-indigo-300 px-5 py-4 bg-indigo-200 lg:px-10 xl:px-36 2xl:px-80">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+<Image src="/Logo.png" className='w-40 h-auto' alt="EMS Logo" width={200} height={100}/>
+
+<div className="flex flex-col  space-y-4 w-28 md:flex-row md:space-y-0 md:space-x-4 items-center justify-between  md:w-60 ">
+  
+    <a href="/login" className="font-semibold px-6 py-2 rounded-md bg-blue-950 text-white text-center w-full md:w-1/2">Login</a>
+ 
+    <a href="/signup" className="font-semibold px-6 py-2 rounded-md bg-blue-950 text-white text-center w-full md:w-1/2">Sign-Up</a>
+   
+</div>
+
+
+</nav>
+ {/*  Main Content  */}
+<div className="flex items-start md:items-center h-full mb-30  w-screen  justify-center overflow-scroll">
+        <div className="flex flex-col md:flex-row items-center justify-center w-screen mx-2 md:mx-10 lg:space-x-3  px-2 py-2 mt-10">
+          
+          <div className="flex flex-col items-center justify-around space-y-6 md:space-y-10  w-full md:w-2/3 xl:w-1/3 ">
+            <h1 className="text-4xl font-bold text-blue-950">USIU-A DIGITAL EQUIPMENT BORROWING SYSTEM</h1>
+            <p className="text-xl font-medium">This platform allows students to request equipment, track approvals, and streamline the borrowing process at USIU-Africa.</p>
+            <div className="flex flex-col md:flex-row items-center justify-around w-full gap-4 md:gap-2 ">
+            <a href="/about" className='w-full'>
+            <button className="bg-blue-950 text-white font-semibold w-full py-2 px-4 rounded">Go to the Dashboard</button>
+            </a>
+            <a href="/about" className='w-full'>
+            <button className="bg-white text-blue-950 border-2 font-semibold border-blue-950 w-full py-2 px-4 rounded">Make a request</button>
+            </a>
+            </div>
+          </div>
+          <Image src="/equipment22.png" alt="EMS Logo" className="w-2/3 md:w-5/12 lg:w-5/12 xl:w-3/12" width={500} height={100}/>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+
+        
+
+ {/*  Footer Component  */}
+        <Footer />
     </div>
   );
 }
