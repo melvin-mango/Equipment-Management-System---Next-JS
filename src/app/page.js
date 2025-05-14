@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Footer from '../components/Footer';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
 
 <div className="flex flex-col  space-y-4 w-28 md:flex-row md:space-y-0 md:space-x-4 items-center justify-between  md:w-60 ">
   
-    <a href="/login" className="font-semibold px-6 py-2 rounded-md bg-blue-950 text-white text-center w-full md:w-1/2">Login</a>
+    <Link href="/login" className="font-semibold px-6 py-2 rounded-md bg-blue-950 text-white text-center w-full md:w-1/2">Login</Link>
  
-    <a href="/signup" className="font-semibold px-6 py-2 rounded-md bg-blue-950 text-white text-center w-full md:w-1/2">Sign-Up</a>
+    <Link href="/signup" className="font-semibold px-6 py-2 rounded-md bg-blue-950 text-white text-center w-full md:w-1/2">Sign-Up</Link>
    
 </div>
 
@@ -27,12 +28,12 @@ export default function Home() {
             <h1 className="text-4xl font-bold text-blue-950">USIU-A DIGITAL EQUIPMENT BORROWING SYSTEM</h1>
             <p className="text-xl font-medium">This platform allows students to request equipment, track approvals, and streamline the borrowing process at USIU-Africa.</p>
             <div className="flex flex-col md:flex-row items-center justify-around w-full gap-4 md:gap-2 ">
-            <a href="/about" className='w-full'>
+            <Link href="/login" className='w-full'>
             <button className="bg-blue-950 text-white font-semibold w-full py-2 px-4 rounded">Go to the Dashboard</button>
-            </a>
-            <a href="/about" className='w-full'>
+            </Link>
+            <Link href="/login" className='w-full'>
             <button className="bg-white text-blue-950 border-2 font-semibold border-blue-950 w-full py-2 px-4 rounded">Make a request</button>
-            </a>
+            </Link>
             </div>
           </div>
           <Image src="/equipment22.png" alt="EMS Logo" className="w-2/3 md:w-5/12 lg:w-5/12 xl:w-3/12" width={500} height={100}/>

@@ -1,0 +1,128 @@
+{
+  "cameras": [
+    {
+      "id": "8930382049432",
+      "name": "Canon EOS C300 Mark III",
+      "lecapp": "",
+      "hodapp": "",
+      "status": "available",
+      "borid": "",
+      "bordate": "",
+      "retdate": "",
+      "purpose_of_use": "",
+      "used_out_campus": "",
+      "timestamp": "",
+      "borname": ""
+    }
+  ],
+  "lenses": [
+    {
+      "id": "7430422034492",
+      "name": "Canon EF L-Series Prime & Zoom Lenses",
+      "lecapp": "",
+      "hodapp": "",
+      "status": "available",
+      "borid": "",
+      "bordate": "",
+      "retdate": "",
+      "purpose_of_use": "",
+      "used_out_campus": "",
+      "timestamp": "",
+      "borname": ""
+    }
+  ],
+  "camera_support": [
+    {
+      "id": "3940342042491",
+      "name": "Sachtler FSB 6 Fluid Head with Flowtech 75 Tripod",
+      "lecapp": "",
+      "hodapp": "",
+      "status": "available",
+      "borid": "",
+      "borname": "",
+      "bordate": "",
+      "retdate": "",
+      "purpose_of_use": "",
+      "used_out_campus": ""
+    }
+  ],
+  "lighting": [
+    {
+      "id": "6985862725262",
+      "name": "Aputure Fresnel 2X",
+      "lecapp": "approved",
+      "hodapp": "approved",
+      "status": "borrowed",
+      "borid": "664136",
+      "bordate": "2025-05-15",
+      "retdate": "2025-05-22",
+      "purpose_of_use": "For Assignments",
+      "used_out_campus": "yes",
+      "timestamp": "2025-05-12T11:53:24.060Z",
+      "borname": "Melvin Mango"
+    }
+  ],
+  "audio": [
+    {
+      "id": "5479495828624",
+      "name": "Sennheiser EW 112P G4",
+      "lecapp": "approved",
+      "hodapp": "approved",
+      "status": "borrowed",
+      "borid": "664136",
+      "bordate": "2025-05-15",
+      "retdate": "2025-05-22",
+      "purpose_of_use": "For Assignments",
+      "used_out_campus": "yes",
+      "borname": "Melvin Mango",
+      "timestamp": "2025-05-12T11:53:24.060Z"
+    }
+  ],
+  "grip_gear": [
+    {
+      "id": "8458481364631",
+      "name": "Matthews Apple Box Set",
+      "lecapp": "",
+      "hodapp": "",
+      "status": "available",
+      "borid": "",
+      "bordate": "",
+      "retdate": "",
+      "purpose_of_use": "",
+      "used_out_campus": "",
+      "borname": "",
+      "timestamp": ""
+    }
+  ],
+  "editing": [
+    {
+      "id": "1878646846464",
+      "name": "Blackmagic DaVinci Resolve Mini Panel",
+      "lecapp": "",
+      "hodapp": "",
+      "status": "available",
+      "borid": "",
+      "bordate": "",
+      "retdate": "",
+      "purpose_of_use": "",
+      "used_out_campus": "",
+      "timestamp": ""
+    }
+  ],
+  "other": [
+    {
+      "id": "6481816991252",
+      "name": "Ben Nye Studio Makeup Kit",
+      "lecapp": "",
+      "hodapp": "",
+      "status": "available",
+      "borid": "",
+      "bordate": "",
+      "retdate": "",
+      "purpose_of_use": " ",
+      "used_out_campus": "",
+      "borname": " ",
+      "timestamp": ""
+    }
+  ]
+}

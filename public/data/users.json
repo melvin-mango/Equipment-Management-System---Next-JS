@@ -1,0 +1,51 @@
+[
+  {
+    "id": "664136",
+    "fname": "Melvin Mango",
+    "email": "mmango@usiu.ac.ke",
+    "password": "664136.mm",
+    "role": "student"
+  },
+  {
+    "id": "736489",
+    "fname": "Paul Mwaniki",
+    "email": "pmwaniki@usiu.ac.ke",
+    "password": "736489.pm",
+    "role": "lecturer"
+  },
+  {
+    "id": "774656",
+    "fname": "Nelida Joseph",
+    "email": "njoseph@usiu.ac.ke",
+    "password": "774656.nj",
+    "role": "hod"
+  },
+  {
+    "id": "769937",
+    "fname": "Robert Adam",
+    "email": "radam@usiu.ac.ke",
+    "password": "769937.ra",
+    "role": "technician"
+  },
+  {
+    "id": "113802",
+    "fname": "Daniel Hassan",
+    "email": "dhassan@usiu.ac.ke",
+    "password": "113802.dh",
+    "role": "security"
+  },
+  {
+    "id": "664059",
+    "fname": "Lewis John",
+    "email": "ljohn@usiu.ac.ke",
+    "password": "664059.lj",
+    "role": "student"
+  },
+  {
+    "id": "665049",
+    "fname": "Melvin Lewis",
+    "email": "mlewis@usiu.ac.ke",
+    "password": "12345",
+    "role": "student"
+  }
+]
